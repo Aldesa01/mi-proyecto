@@ -1,7 +1,7 @@
 <?php
 
 function saludar($nombre = "visitante") {
-    return "¡Hola, " . htmlspecialchars($nombre) . "! Bienvenido a nuestro sitio.";
+    return "¡Hola, " . htmlspecialchars($nombre) . "! Bienvenido a nuestro sitio desde MAIN.";
 }
 
 function mensajePersonalizado($mensaje = "Este es un mensaje por defecto") {
